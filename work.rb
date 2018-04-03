@@ -6,7 +6,6 @@ def summary(a,num)
     puts "name: #{a[num][:name]}"
     puts "number #{a[num][:number]}"
     puts "gender: #{a[num][:gender]}"
-    puts ""
 end
 
 
@@ -17,7 +16,6 @@ loop do
     break if  cmd == "0"
     
     person << Hash.new
-    puts person.length
  
     
     puts "you're name? "
